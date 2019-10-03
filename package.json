@@ -1,11 +1,10 @@
 {
   "name": "nuxt-starter",
   "version": "1.0.0",
-  "description": "My first Nuxt.js project",
+  "description": "My fantabulous Nuxt.js project",
   "keywords": [
-    "inha-university",
-    "timetable",
-    "generator"
+    "nuxt",
+    "template"
   ],
   "dependencies": {
     "@nuxtjs/axios": "^5.6.0",
@@ -16,27 +15,31 @@
   "devDependencies": {
     "@nuxtjs/eslint-config": "^1.1.2",
     "@nuxtjs/eslint-module": "^1.1.0",
+    "@nuxtjs/stylelint-module": "^3.0.0",
     "babel-eslint": "^10.0.3",
     "eslint": "^6.5.1",
-    "eslint-plugin-nuxt": "^0.4.3"
+    "eslint-plugin-nuxt": "^0.4.3",
+    "stylelint": "^11.0.0",
+    "stylelint-config-recess-order": "^2.0.3",
+    "stylelint-config-standard": "^19.0.0"
   },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt",
     "generate": "nuxt generate",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "lint:fix": "eslint --ext .js,.vue --fix --ignore-path .gitignore .",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore . & stylelint **/*.vue",
+    "lint:fix": "eslint --ext .js,.vue --fix --ignore-path .gitignore . & stylelint --fix **/*.vue",
     "start": "nuxt start"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Astro36/hanguler.ts"
+    "url": "git+https://github.com/int-i/nuxt-starter"
   },
   "author": "Seungjae Park <email@example.com>",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/Astro36/hanguler.ts/issues"
+    "url": "https://github.com/int-i/nuxt-starter/issues"
   },
-  "homepage": "https://github.com/Astro36/hanguler.ts#readme",
+  "homepage": "https://github.com/int-i/nuxt-starter#readme",
   "private": true
 }

@@ -13,7 +13,8 @@ export default {
   plugins: [],
 
   buildModules: [
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/stylelint-module'
   ],
 
   modules: [
