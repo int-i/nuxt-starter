@@ -1,25 +1,26 @@
 {
   "name": "nuxt-starter",
   "version": "1.0.0",
-  "description": "My fantabulous Nuxt.js project",
+  "description": "My Nuxt.js Start Template",
   "keywords": [
     "nuxt",
     "template"
   ],
   "dependencies": {
-    "@nuxtjs/axios": "^5.6.0",
-    "@nuxtjs/google-analytics": "^2.2.0",
+    "@nuxtjs/axios": "^5.9.3",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/google-analytics": "^2.2.3",
     "@nuxtjs/pwa": "^3.0.0-beta.19",
-    "nuxt": "^2.9.2"
+    "nuxt": "^2.11.0"
   },
   "devDependencies": {
-    "@nuxtjs/eslint-config": "^1.1.2",
+    "@nuxtjs/eslint-config": "^2.0.0",
     "@nuxtjs/eslint-module": "^1.1.0",
-    "@nuxtjs/stylelint-module": "^3.0.0",
+    "@nuxtjs/stylelint-module": "^3.1.1",
     "babel-eslint": "^10.0.3",
-    "eslint": "^6.5.1",
-    "eslint-plugin-nuxt": "^0.4.3",
-    "stylelint": "^11.0.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-nuxt": "^0.5.0",
+    "stylelint": "^12.0.1",
     "stylelint-config-recess-order": "^2.0.3",
     "stylelint-config-standard": "^19.0.0"
   },

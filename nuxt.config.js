@@ -19,6 +19,7 @@ export default {
 
   modules: [
     '@nuxtjs/axios',
+    '@nuxtjs/dotenv',
     '@nuxtjs/google-analytics',
     '@nuxtjs/pwa'
   ],

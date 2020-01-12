@@ -1,6 +1,6 @@
 # nuxt-starter
 
-> My fantabulous Nuxt.js project
+> My Nuxt.js Start Template
 
 ## Build Setup
 
