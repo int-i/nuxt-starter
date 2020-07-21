@@ -4,7 +4,7 @@ module.exports = {
     browser: true,
     es6: true,
     mocha: true,
-    node: true,
+    node: true
   },
   extends: [
     '@nuxtjs',
@@ -12,9 +12,9 @@ module.exports = {
   ],
   globals: {
     Atomics: 'readonly',
-    SharedArrayBuffer: 'readonly',
+    SharedArrayBuffer: 'readonly'
   },
   parserOptions: {
-    parser: 'babel-eslint',
+    parser: 'babel-eslint'
   }
-};
+}

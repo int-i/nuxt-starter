@@ -49,5 +49,7 @@ export default {
 
   router: { base: BASE_URL },
 
-  build: {}
+  build: {},
+
+  telemetry: false
 }
